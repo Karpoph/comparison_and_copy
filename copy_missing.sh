@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set the source and destination directories
-source_dir="/home/watens/Desktop/pdfs_1"
-dest_dir="/home/watens/Downloads/pdfs_2"
+source_dir="/home/Desktop/pdfs_1"
+dest_dir="/home/Downloads/pdfs_2"
 
 # Iterate through the files in the source directory
 for file in "$source_dir"/*.pdf "$source_dir"/*.xml; do
