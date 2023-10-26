@@ -3,8 +3,8 @@ use std::io;
 use std::path::Path;
 
 fn main() -> io::Result<()> {
-    let source_dir = "/home/watens/Desktop/pdfs_1";
-    let destination_dir = "/home/watens/Downloads/pdfs_2";
+    let source_dir = "/home/Desktop/pdfs_1";
+    let destination_dir = "/home/Downloads/pdfs_2";
 
     // Ensure the destination directory exists
     fs::create_dir_all(destination_dir)?;
