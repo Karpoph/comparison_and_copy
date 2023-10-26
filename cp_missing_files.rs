@@ -1,8 +1,8 @@
 use std::fs;
 
 fn main() {
-    let source_dir = "/home/watens/Desktop/pdfs_1";
-    let dest_dir = "/home/watens/Downloads/pdfs_2";
+    let source_dir = "/home/Desktop/pdfs_1";
+    let dest_dir = "/home/Downloads/pdfs_2";
 
     for entry in fs::read_dir(source_dir).unwrap() {
         let file_path = entry.unwrap().path();
