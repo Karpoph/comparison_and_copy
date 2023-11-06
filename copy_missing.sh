@@ -2,7 +2,7 @@
 
 # Set the source and destination directories
 source_dir="/home/Desktop/pdfs_1"
-dest_dir="/home/Downloads/pdfs_2"
+dest_dir="s3://kukumbili"
 
 # Iterate through the files in the source directory
 for file in "$source_dir"/*.pdf "$source_dir"/*.xml; do
